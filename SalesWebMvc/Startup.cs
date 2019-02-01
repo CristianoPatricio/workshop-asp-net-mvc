@@ -53,6 +53,9 @@ namespace SalesWebMvc
 
             // Register DepartmentService fot dependency injection system
             services.AddScoped<DepartmentService>();
+
+            // Register SalesRecordService for dependency injection system
+            services.AddScoped<SalesRecordService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
